@@ -34,7 +34,9 @@ this.state = {
 
 Bonus tasks:
 - Instead of displaying one name, display all names and add CSS to make the luckyWinner look different (e.g. bold and coloured) 
-- allow user to key in names
+- Create a InputForm component allow user to key in names. Everytime the user clicks the submit button or hits enter, `setState()` should be called and `this.state.names` should be updated with a new name. Note 2 things:
+  - this is only in memory, meaning everytime you refresh the page, the added names will disappear)
+  - you will need to pass handlers as props
 - Refactor App.js into smaller components (we will need to pass handlers as props)
 
 
