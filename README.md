@@ -13,7 +13,7 @@ For this exercise, we will be doing everything inside `App.js`
 
 ```js
 this.state = {
-  names: ["gordon", "sahil", "david"],
+  names: ["gordon", "sahil", "david", "sally", "jane", "alice"],
   luckyWinnerIndex: null
 };
 ```
@@ -31,14 +31,17 @@ this.state = {
     - in `App.js`, `import math from "mathjs"`
     - to generate a random integer between 0 - 2, use `math.randomInt(3)` (see [docs](http://mathjs.org/docs/reference/functions/randomInt.html))
 
-- TODO: add instructions for
-  - CSS
-  - Passing handlers as props
+
+Bonus tasks:
+- Instead of displaying one name, display all names and add CSS to make the luckyWinner look different (e.g. bold and coloured) 
+- allow user to key in names
+- Refactor App.js into smaller components (we will need to pass handlers as props)
 
 
 
-topics to cover:
-- event listeners and handlers
-- CSS
-- passing handlers as props
+prerequisite knowledge:
+- basic React
 - conditional rendering
+- CSS
+- event listeners and handlers
+- passing handlers as props
